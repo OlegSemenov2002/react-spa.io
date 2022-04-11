@@ -1,0 +1,24 @@
+.commentContainer{
+  display: flex;
+  flex-direction: column;
+  margin: 2%;
+  border-top: 1px solid black;
+}
+.comment_name{
+  margin: 2%;
+  font-size: 16px;
+  color:#46A8E0;
+}
+.comment_email{
+  margin: 1%;
+
+  color: #ED9AAF;
+  font-size: 15px;
+}
+.comment_text{
+  margin-left: 1%;
+  color: #3E5394;
+  font-size: 14px;
+
+
+}

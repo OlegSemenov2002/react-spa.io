@@ -1,0 +1,33 @@
+.post_Page{
+  padding-top: 5%;
+  height: auto;
+  width: 100%;
+  background: rgb(163,240,255);
+background: linear-gradient(90deg, rgba(163,240,255,1) 0%, rgba(241,251,252,1) 74%, rgba(153,246,255,1) 100%, rgba(255,255,255,1) 100%);
+
+}
+.postBox{
+  border: 5px solid #EEEDF0;
+  padding: 2%;
+  display: flex;
+  width: 80%;
+  margin: 10% 10% 10% 10%;
+  height: 100vh;
+  background-color: white;
+  flex-direction: column;
+}
+.onpage{
+  flex:1;
+  width: 100%;
+
+  white-space: normal;
+}
+.post_body{
+  font-size: 20px;
+}
+
+@media only screen and (max-width:430px) {
+
+
+
+}

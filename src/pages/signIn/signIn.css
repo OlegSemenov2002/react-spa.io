@@ -1,0 +1,52 @@
+.mainSection{
+  display: flex;
+  height: 80vh;
+  width: 100%;
+  justify-content: center;
+   align-items:flex-start;
+}
+.formSection{
+  padding: 5px 2px 5px 2px;
+  margin-top: 15vh;
+  height: 40%;
+  width: 30%;
+  background-color: #D2E4FC;
+  flex-direction: column;
+  border: 2px solid #376FE0;
+  display: flex;
+
+}
+.formSection >form{
+  width: 100%;
+  height: 100%;
+}
+.form_text {
+  flex:1;
+}
+.form_input{
+
+    padding-left: 2%;
+    width: 80%;
+    margin: 2%;
+    flex: 1;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+
+}
+.form_submitButton{
+  flex: 1;
+  width: 30%;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+@media only screen and (max-width:430px) {
+  .formSection{
+    width: 90%;
+    margin: 5%;
+  }
+  .form_text {
+    font-size: 16px;
+  }
+}

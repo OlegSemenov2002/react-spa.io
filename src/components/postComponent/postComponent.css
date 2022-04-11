@@ -1,0 +1,47 @@
+.post{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 15% 0 15%;
+
+
+  width: 70%;
+  height: 80%;
+
+
+
+  background-color: white;
+  padding: 1%;
+  border: 1px solid grey;
+  border-radius: 5px;
+
+}
+.post_title{
+  flex: 1;
+  background-color: white;
+  border-bottom: 1px solid black;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow:  ellipsis;
+
+
+}
+.post_body{
+  padding-top: 5%;
+  flex: 4;
+}
+
+@media only screen and (max-width:430px) {
+  .homepagePost> .post_body{
+    display: none;
+  }
+  .post{
+    height: 80%;
+
+  }
+  .post_body{
+    height: auto;
+  }
+
+
+}

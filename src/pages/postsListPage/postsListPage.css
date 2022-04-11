@@ -1,0 +1,52 @@
+.postPage{
+  background: rgb(163,240,255);
+background: linear-gradient(90deg, rgba(163,240,255,1) 0%, rgba(235,235,251,1) 32%, rgba(191,251,251,1) 100%);
+  width: 100%;
+  justify-content: center;
+  flex-direction: center;
+
+}
+.page_search{
+  display: flex;
+  width: 100%;
+  height: 20vh;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page_change{
+  display: flex;
+  width: 80%;
+  height: 20vh;
+  padding: 0 10% 0 10%;
+  font-size: 25px;
+  justify-content: center;
+  align-items: center;
+}
+.changePageList{
+  flex:2;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.changePageButton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  flex:1;
+}
+.changePageButton:hover, .pageNumber:hover{
+   color: #F7A414;
+}
+.pageNumber{
+  flex:1;
+  display: flex;
+
+}
+@media only screen and (max-width:430px) {
+  .page_change{
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,75 @@
+.newCommentBox{
+  background-color: #F5B681;
+  border-radius: 4px;
+  padding: 2% 0 2% 0;
+  height: auto;
+  max-height: 50vh;
+}
+.commentForm{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+
+}
+.commentName{
+  flex: 2;
+  margin: 1%;
+
+  width: 87%;
+  padding-left: 3%;
+
+  color:black;
+  font-size: 25px;
+  border: 1px solid purple;
+  border-radius: 7px;
+
+}
+.commentText{
+  font-size: 20px;
+ margin: 1%;
+  display: flex;
+  flex: 1 1  auto;
+
+  flex-grow: 2;
+  width: 90%
+
+
+  /* min-height: 100px; */
+  /* max-height: 300px; */
+
+
+
+
+}
+.commentText > textarea{
+ border: 1px solid purple;
+
+     max-width: 100%;
+     width: 100%;
+
+border-radius: 2px;
+ padding-left: 3%;
+ min-height: 20vh;
+
+
+  max-height: 40vh;
+
+}
+.commentSubmit{
+  flex:1;
+  margin: 1%;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+   border-radius: 2px;
+
+  margin-left: 60%;
+  width: 30%;
+
+}
+.commentText > textarea:active, .commentText > textarea:hover, .commentText > textarea:focus {
+    outline: 0;
+    outline-offset: 0;
+}

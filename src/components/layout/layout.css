@@ -1,0 +1,49 @@
+
+.mainHeader{
+
+   height: 7vh;
+   display: flex;
+   font-size: 24px;
+
+}
+
+.navList{
+   display: flex;
+   flex: 5;
+
+}
+.sign{
+   padding: 1% ;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   flex:0.5;
+}
+.navList_item{
+   display: flex;
+   align-items: center;
+
+
+   list-style-type:none;
+   justify-content: center;
+   padding: 1%;
+}
+.navList_item:hover, .sign:hover{
+   background-color: #C5CEF3;
+}
+
+
+
+
+@media only screen and (max-width:430px) {
+  .mainHeader{
+   font-size: 17px;
+  }
+  .navList_item{
+   flex:1;
+  }
+  .sign{
+   flex: 3;
+   justify-content: center;
+  }
+}

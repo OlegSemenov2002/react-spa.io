@@ -1,0 +1,14 @@
+.commentsBlock{
+
+  margin: 10% 20% 10% 20%;
+  width: 60%;
+
+
+
+}
+.comments{
+      /* background-color:#E2EEF3; */
+
+  flex-direction: column;
+  display: flex;
+}

@@ -1,0 +1,69 @@
+.searchPost{
+ display: flex;
+ margin-top: 10%;
+
+ justify-content: center;
+
+ align-items: center;
+ width: 70%;
+
+
+ height: 100%;
+
+
+
+
+
+}
+
+.searchInput{
+ padding-left: 3%;
+
+flex: 5;
+display: flex;
+color:black;
+
+
+ font-size: 25px;
+ border: none;
+ border-radius: 10px;
+}
+.searchButton{
+  cursor: pointer;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  border: none;
+  background-color: #3EACF7;
+
+  font-size: 25px;
+  flex:1.5;
+}
+
+.searchInput:active, .searchInput:hover, .searchInput:focus {
+    outline: 0;
+    outline-offset: 0;
+}
+@media only screen and (max-width:430px) {
+  .searchPost{
+   flex-direction: column;
+  }
+  .searchInput{
+   width: 100%;
+   font-size: 18px;
+   flex: 1;
+  }
+  .searchButton{
+   flex: 0.5;
+   font-size: 18px;
+
+
+   margin: 2% 2% 2% 50%;
+   align-items: end;
+  }
+
+
+
+}
