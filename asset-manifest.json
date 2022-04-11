@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-spa.io/static/css/main.06f13a13.css",
+    "main.js": "/react-spa.io/static/js/main.c36280f2.js",
+    "static/media/planet.png": "/react-spa.io/static/media/planet.fd043932d8c480bef3ac.png",
+    "index.html": "/react-spa.io/index.html",
+    "main.06f13a13.css.map": "/react-spa.io/static/css/main.06f13a13.css.map",
+    "main.c36280f2.js.map": "/react-spa.io/static/js/main.c36280f2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06f13a13.css",
+    "static/js/main.c36280f2.js"
+  ]
+}
