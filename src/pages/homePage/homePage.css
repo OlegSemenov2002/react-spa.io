@@ -11,7 +11,7 @@
 li{
   padding: 0;
 }
-.homePage_list_section{
+.homePage_list{
  height: 70vh;
  /* border-top: 10px solid black; */
 
@@ -37,7 +37,7 @@ li{
   display: flex;
   justify-content: space-around;
    align-items:center;
-   height: 80%;
+   height: 80vh;
 
 }
 .homePage_post{
@@ -59,11 +59,13 @@ li{
   .homePage_list{
     flex-direction: column;
     height: 30vh;
+    background-color: red;
   }
   .homePage_post{
     flex: 1;
     font-size: 10px;
     width: 90%;
+    height: 100%;
     margin: 2%;
   }
 
