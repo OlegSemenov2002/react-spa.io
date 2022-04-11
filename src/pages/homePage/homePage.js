@@ -16,7 +16,7 @@ const HomePage = () => {
 
 
   return(
-    <main >
+    <main className="homepage" >
       <div className="homepage_mainSection">
         <MainTitle  />
       </div>

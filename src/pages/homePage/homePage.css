@@ -1,5 +1,6 @@
-
-
+.homepage{
+  height: 200vh;
+}
 .homepage_mainSection{
   display: flex;
   height: 70vh;
@@ -42,30 +43,30 @@ li{
 }
 .homePage_post{
   width:calc(33.3333333% - 30px);
-  height: 80%;
-
-
 }
 .homePage_post >div{
   margin: 2%;
   width: 90%;
-  height: 100%;
+
 }
 @media only screen and (max-width:430px) {
-  .homepage_mainSection{
-    height: 30vh;
-  }
+  .homepage{
+    height: 150vh;
 
+  }
+  .homepage_mainSection{
+    height: 50vh;
+  }
   .homePage_list{
     flex-direction: column;
-    height: 30vh;
+    height: 40vh;
     background-color: red;
   }
   .homePage_post{
     flex: 1;
     font-size: 10px;
     width: 90%;
-    height: 100%;
+
     margin: 2%;
   }
 
